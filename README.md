@@ -7,7 +7,7 @@ O objetivo deste projeto é construir uma aplicação capaz de organizar informa
 Durante o desenvolvimento serão aplicados conceitos de:
 
 * Desenvolvimento de APIs REST
-* Python com Flask
+* Python com Fast API
 * Banco de dados MongoDB
 * Organização de projetos backend
 * Boas práticas de programação
@@ -35,7 +35,7 @@ O projeto também servirá como base para estudos futuros envolvendo análise de
 Atualmente o projeto está sendo desenvolvido utilizando:
 
 * Python
-* Flask
+* Fast API
 * MongoDB
 * Git e GitHub
 
@@ -104,8 +104,8 @@ educore-api/
 
 * [x] Criar repositório no GitHub
 * [x] Configurar ambiente de desenvolvimento
-* [ ] Criar estrutura inicial Flask
-* [ ] Configurar conexão com MongoDB
+* [x] Configurar conexão com MongoDB
+* [ ] Criar estrutura inicial Fast API
 * [ ] Criar endpoints da API
 * [ ] Implementar validações
 * [ ] Criar testes automatizados
