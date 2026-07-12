@@ -1,0 +1,22 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: educore-mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+      educore-network:
+        ipv4_address: 172.20.0.10
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
+
+networks:
+  educore-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24

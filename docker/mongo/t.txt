@@ -1,0 +1,233 @@
+[
+    {
+        "Id": "407eb9a3ccfb6c2a886cd0a8135b88c61f6e6f9eb4cc003e77c304564fb35420",
+        "Created": "2026-07-11T22:10:45.817678581Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "mongod"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 133056,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-07-11T22:12:38.576661562Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:683091d0bbbf441601d528324802f42ca711bfe764060b0e3a492d0f1441fdbb",
+        "ResolvConfPath": "/var/lib/docker/containers/407eb9a3ccfb6c2a886cd0a8135b88c61f6e6f9eb4cc003e77c304564fb35420/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/407eb9a3ccfb6c2a886cd0a8135b88c61f6e6f9eb4cc003e77c304564fb35420/hostname",
+        "HostsPath": "/var/lib/docker/containers/407eb9a3ccfb6c2a886cd0a8135b88c61f6e6f9eb4cc003e77c304564fb35420/hosts",
+        "LogPath": "/var/lib/docker/containers/407eb9a3ccfb6c2a886cd0a8135b88c61f6e6f9eb4cc003e77c304564fb35420/407eb9a3ccfb6c2a886cd0a8135b88c61f6e6f9eb4cc003e77c304564fb35420-json.log",
+        "Name": "/educore-mongodb",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": [
+            "a2813fbe240d91d5a7990cff396f3d49f0f8c731bd72b4d1e0c175d0794a99ba"
+        ],
+        "HostConfig": {
+            "Binds": [
+                "mongo_mongodb_data:/data/db:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "mongo_educore-network",
+            "PortBindings": {
+                "27017/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "27017"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "407eb9a3ccfb6c2a886cd0a8135b88c61f6e6f9eb4cc003e77c304564fb35420",
+                "LowerDir": "/var/lib/docker/overlay2/699a539539e68a24681d1e95a506fe50d5dee78e2ed61aa23f2adccd54e6360d-init/diff:/var/lib/docker/overlay2/03026da2595634b1b1fbd9fb802a6ea1768d4e9f120d61d75f2dae4ae8f11b69/diff:/var/lib/docker/overlay2/d4b34563fe35f5151ec611ab91dfefc4ba75fbc904491dd569ff89adfaf374af/diff:/var/lib/docker/overlay2/6a5810308a365daf31b6e74f1bb3ca9fa9f48e9c3e7d650d57fa2181f483be2a/diff:/var/lib/docker/overlay2/ad32624695cbead93e197a1bfd5621acdb7f4be3ca5d7b815bf0bf74a1b4a092/diff:/var/lib/docker/overlay2/0a5bed841b2cf84678ecdbdaaa3781fab42f6746ff852443e405e3d820db0c8b/diff:/var/lib/docker/overlay2/552664e8f7ba3da4c5f523b4ffeaafcc79324c46bce04683a269132617178717/diff:/var/lib/docker/overlay2/8b8a9ce8c78559644a5c432513d808ce483c8523f0babc3c9d624e4f168f4d5f/diff:/var/lib/docker/overlay2/d3f630d69ebbab5198239dee6f10e7f306f3ed772488fbb6330dcc42c9b2406e/diff",
+                "MergedDir": "/var/lib/docker/overlay2/699a539539e68a24681d1e95a506fe50d5dee78e2ed61aa23f2adccd54e6360d/merged",
+                "UpperDir": "/var/lib/docker/overlay2/699a539539e68a24681d1e95a506fe50d5dee78e2ed61aa23f2adccd54e6360d/diff",
+                "WorkDir": "/var/lib/docker/overlay2/699a539539e68a24681d1e95a506fe50d5dee78e2ed61aa23f2adccd54e6360d/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "654043ff91a6178baac224a07ec420b3e76e9450b7b34982622e7b7428bb0d20",
+                "Source": "/var/lib/docker/volumes/654043ff91a6178baac224a07ec420b3e76e9450b7b34982622e7b7428bb0d20/_data",
+                "Destination": "/data/configdb",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "mongo_mongodb_data",
+                "Source": "/var/lib/docker/volumes/mongo_mongodb_data/_data",
+                "Destination": "/data/db",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "407eb9a3ccfb",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "27017/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.19",
+                "JSYAML_VERSION=3.13.1",
+                "JSYAML_CHECKSUM=662e32319bdd378e91f67578e56a34954b0a2e33aca11d70ab9f4826af24b941",
+                "MONGO_PACKAGE=mongodb-org",
+                "MONGO_REPO=repo.mongodb.org",
+                "MONGO_MAJOR=8.2",
+                "MONGO_VERSION=8.2.11",
+                "HOME=/data/db",
+                "GLIBC_TUNABLES=glibc.pthread.rseq=0"
+            ],
+            "Cmd": [
+                "mongod"
+            ],
+            "Image": "mongo:latest",
+            "Volumes": {
+                "/data/configdb": {},
+                "/data/db": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "ba4aa37196e8c8bd480134dae6935f6a20c9354d07688b731faa03848d6c79d5",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:683091d0bbbf441601d528324802f42ca711bfe764060b0e3a492d0f1441fdbb",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "mongo",
+                "com.docker.compose.project.config_files": "/home/fabianohipolito/Repositorio/desenvolvimento/python/educore-api/docker/mongo/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/fabianohipolito/Repositorio/desenvolvimento/python/educore-api/docker/mongo",
+                "com.docker.compose.service": "mongodb",
+                "com.docker.compose.version": "5.0.2",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "eff00706e120ab8a8a4f9d578ec31ce25fb14b54b59da005ed0e181e85366c29",
+            "SandboxKey": "/var/run/docker/netns/eff00706e120",
+            "Ports": {},
+            "Networks": {}
+        }
+    }
+]
